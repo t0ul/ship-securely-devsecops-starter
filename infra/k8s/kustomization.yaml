@@ -1,0 +1,7 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+images:
+  - name: ship-securely/app
+    newName: ship-securely/app
+    newTag: dev
