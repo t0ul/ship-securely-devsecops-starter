@@ -30,3 +30,20 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Kept out of git
+.DS_Store
+.env
+.env.*
+!.env.example
+!.env.sample
+.vercel/
+.netlify/
+node_modules/
+.next/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.pem
+*.key
+id_rsa*
